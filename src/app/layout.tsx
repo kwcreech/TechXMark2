@@ -17,10 +17,14 @@ type RootLayoutProps = {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <div className={`mt-7 ${inter.className}`}>
-      <NavBar />
-      <div className="mb-10"></div>
-      {children}
-    </div>
+    <html lang="en">
+      <body>
+        <div className={`mt-7 ${inter.className}`}>
+          <NavBar />
+          <div className="mb-10"></div>
+          {children}
+        </div>
+      </body>
+    </html>
   );
 }
