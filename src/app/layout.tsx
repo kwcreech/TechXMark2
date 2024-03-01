@@ -17,8 +17,9 @@ type RootLayoutProps = {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <div className={`mt-11 ${inter.className}`}>
+    <div className={`mt-7 ${inter.className}`}>
       <NavBar />
+      <div className="mb-10"></div>
       {children}
     </div>
   );

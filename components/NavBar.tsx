@@ -4,13 +4,13 @@ import Link from 'next/link'
 const NavBar = () => {
   return (
     <div>
-        <nav className="fixed top-0 left-0 z-50 mb-20">
-            <ul className="flex flex-row space-between">
+        <nav className="flex justify-center">
+            <ul className="list-none">
                 <li>
                     <Link href={"/"}>Home</Link>
                 </li>
                 <li>
-                    <Link href={"/fileexplanation"}>Explanation of each file</Link>
+                    <Link href={"/fileexplanation"}>Explanation of each File</Link>
                 </li>
                 <li>
                     <Link href={"/approuterexplanation"}>App Router</Link>
